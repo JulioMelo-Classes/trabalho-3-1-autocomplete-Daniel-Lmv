@@ -93825,4 +93825,4 @@
              3	Tanggul, Indonesia
              3	Al Musaymīr, Yemen
              2	Grytviken, South Georgia and The South Sandwich Islands
-             2	Al Khāniq, Yemen
+             2	Al Khāniq, Yemen             
