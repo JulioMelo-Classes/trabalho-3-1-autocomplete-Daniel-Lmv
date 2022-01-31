@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Dados.cpp.o CMakeFiles/main.dir/src/interface.cpp.o CMakeFiles/main.dir/src/requisicao.cpp.o  -o main 
