@@ -1,14 +1,31 @@
-Para compilar com cmake:
+=========== Para compilar com cmake =========
 
 mkdir build
 cd build
 cmake ..
 cmake --build .
+=============================================
 
-Para execultar:
+
+
+
+
+=============== Para execultar ==============
 
 cd build
 ./main ../data/nome_do_arquivo_a_ser_lido.txt
 
 Exemplo:
 ./main ../data/cities.txt
+
+=============================================
+
+
+
+
+
+======== Para Usar o script ja com dados ====
+
+./main ../data/cities.txt <../data/script.txt
+
+=============================================
