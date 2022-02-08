@@ -104,3 +104,41 @@ The description of this programming assignment was taken from [Computer Sciecne 
 
 &copy; DIMAp/UFRN 2021.
 &copy; IMD/UFRN 2021.
+
+
+# Avaliação
+
+## Ler e validar os argumentos da linha de comando | 0 / 10
+
+- Você não fez qualque validação da entrada. Alguns casos de erro: quantidade de argumentos < 2, arquivo inexistente, arquivo inválido, etc.
+
+## Ler os dados da base de dados e armazená-los em uma classe apropriada | 5 / 10
+
+- Vou considerar 50%, pois seu método de "carregar_data" faz retorno de um container, que é uma má prática como já conversamos. O objetivo aqui era vc armazenar
+os dados dentro da classe Dados e usá-los através de métodos desta classe. Da forma como você fez, a classe só serve para guardar uma função que retorna os dados
+para quem chama. Tanto que você não usa mais a classe Dados após carregar a base lá no main.
+
+## Separar a interface textual das demais classes do sistema concentrando os couts e cins em um único objeto | 10 / 10
+
+- ok
+
+## Implementação de uma classe para conter o resultado da requisição do usuário | 0 / 10
+
+- Acho que você interpretou errado. A classer "Requisição" que você fez na verdade só agrupa duas funções que retornam containers. O objetivo dessa terceira classe
+era guardar o resultado da busca binária feita sobre os dados do banco.
+
+## Implementação eficiente através de referencias e algoritmos de busca binária | 3 / 10
+
+- Você não realizou busca binária, mas teve o cuidado de usar referencias ao passar containers como parâmetro de outros métodos, assim vou considerar 30%.
+
+## Organização do código em src, include, data | 5 / 5
+
+- ok
+
+## Documentação do código usando o padrão doxygen | 4 / 5
+
+- Vou tirar 1 ponto deste quesito por você ter cometido um erro de indentação no main.
+
+## Implementação e documentação de arquivos de teste | 5 / 10
+
+- Você implementou outra base de dados "city" e um script de teste, porém não documentou como é o uso e nem qual a saída esperada.
